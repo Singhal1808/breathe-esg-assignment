@@ -34,4 +34,4 @@ services:
     staticPublishPath: dist
     envVars:
       - key: VITE_API_BASE_URL
-        value: "https://breathe-esg-api.onrender.com/api"
+        value: "https://breathe-esg-api-8d2f.onrender.com/api"
