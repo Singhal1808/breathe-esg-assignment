@@ -9,9 +9,7 @@ services:
     rootDir: backend
     plan: free
     buildCommand: "pip install -r requirements.txt && python manage.py collectstatic --noinput"
-    preDeployCommand: "python manage.py migrate"
-    initialDeployHook: "python manage.py seed_demo"
-    startCommand: "gunicorn breathe.wsgi:application"
+    startCommand: "python manage.py migrate && python manage.py seed_demo && gunicorn breathe.wsgi:application"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
