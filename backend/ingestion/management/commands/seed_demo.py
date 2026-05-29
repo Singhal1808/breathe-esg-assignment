@@ -48,7 +48,9 @@ class Command(BaseCommand):
             )[0],
         }
 
-        sample_dir = Path(__file__).resolve().parents[4] / "sample_data"
+        backend_sample_dir = Path(__file__).resolve().parents[3] / "sample_data"
+        repo_sample_dir = Path(__file__).resolve().parents[4] / "sample_data"
+        sample_dir = backend_sample_dir if backend_sample_dir.exists() else repo_sample_dir
         for source_type, filename in {
             "sap": "sample_sap_fuel_procurement.csv",
             "utility": "sample_utility_electricity.csv",

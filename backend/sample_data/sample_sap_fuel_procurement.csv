@@ -1,0 +1,6 @@
+Buchungsdatum,Werkscode,Material,Materialkurztext,Quantity,UoM,Movement Type,CostCenter,Supplier,PurchaseOrder,Document
+15.01.2026,BLR-PLANT,DIESEL-BULK,Diesel for gensets,420,L,261,FAC-BLR-OPS,FuelVendor GmbH,4500005512,5000123401
+2026-01-18,PUN-DC,PETROL-FLEET,Petrol for owned service vehicles,73,gal,201,LOG-PUN,FleetFuel India,4500005521,5000123402
+20260122,BLR-PLANT,PACKAGING-CORRUGATE,Corrugated cartons,1200,EA,101,PROC-BLR,PackRight Pvt Ltd,4500005530,5000123403
+31/01/2026,UNKNOWN-7,DIESEL-BULK,Diesel for temporary generator,185,L,261,FAC-TEMP,FuelVendor GmbH,4500005539,5000123404
+
