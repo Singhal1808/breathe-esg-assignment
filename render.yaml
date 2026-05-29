@@ -26,7 +26,7 @@ services:
       - key: CORS_ALLOWED_ORIGINS
         value: "https://breathe-esg-web.onrender.com"
 
-  - type: static
+  - type: web
     name: breathe-esg-web
     runtime: static
     rootDir: frontend
