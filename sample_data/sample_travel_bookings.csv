@@ -1,0 +1,7 @@
+booking_id,expense_report_id,employee_id,travel_type,origin,destination,trip_start,distance,nights,unit,amount,currency,vendor,site_code,cost_center
+TR-1001,EXP-7821,E-144,flight,BLR,BOM,2026-02-12,842,,km,8200,INR,IndiGo,MUM-HQ,SALES
+TR-1002,EXP-7822,E-233,hotel,Bengaluru,Bengaluru,2026-02-12,,3,night,18300,INR,Hyatt BLR,BLR-PLANT,SALES
+TR-1003,EXP-7823,E-233,taxi,Bengaluru Airport,BLR Plant,2026-02-12,48,,km,1800,INR,Uber for Business,BLR-PLANT,SALES
+TR-1004,EXP-7824,E-355,flight,DEL,SFO,2026-02-20,,,km,142000,INR,United Airlines,MUM-HQ,EXEC
+TR-1005,EXP-7825,E-355,rail,Pune,Mumbai,2026-02-24,151,,km,1200,INR,IRCTC,PUN-DC,OPS
+

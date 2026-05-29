@@ -1,0 +1,325 @@
+:root {
+  color: #1d2525;
+  background: #f4f2ed;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  min-height: 100vh;
+  padding: 28px;
+}
+
+.topbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.topActions {
+  display: flex;
+  gap: 10px;
+}
+
+.eyebrow {
+  color: #66716f;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 17px;
+}
+
+button,
+select,
+input {
+  font: inherit;
+}
+
+button {
+  align-items: center;
+  border: 1px solid #cad2cf;
+  background: white;
+  border-radius: 7px;
+  cursor: pointer;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  min-height: 36px;
+  padding: 7px 10px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.iconButton {
+  height: 40px;
+  width: 40px;
+}
+
+.primary {
+  background: #147c72;
+  border-color: #147c72;
+  color: white;
+  width: 100%;
+}
+
+.notice {
+  background: #fff4d6;
+  border: 1px solid #e8c15a;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 12px 14px;
+}
+
+.loginPanel {
+  background: #fffefa;
+  border: 1px solid #d9ded9;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  max-width: 520px;
+  padding: 18px;
+}
+
+.kpiGrid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-bottom: 18px;
+}
+
+.kpi,
+.panel {
+  background: #fffefa;
+  border: 1px solid #d9ded9;
+  border-radius: 8px;
+}
+
+.kpi {
+  display: grid;
+  gap: 8px;
+  padding: 16px;
+}
+
+.kpi span {
+  color: #66716f;
+  font-size: 13px;
+}
+
+.kpi strong {
+  font-size: 28px;
+}
+
+.badge {
+  border-radius: 999px;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 8px;
+  width: fit-content;
+}
+
+.badge.neutral {
+  background: #e9eeec;
+  color: #47514f;
+}
+
+.badge.warn {
+  background: #fff0bf;
+  color: #8a5a00;
+}
+
+.badge.bad {
+  background: #ffe0dc;
+  color: #9b2f20;
+}
+
+.badge.good {
+  background: #dff4e8;
+  color: #17633c;
+}
+
+.workArea {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 320px minmax(0, 1fr);
+}
+
+.panel {
+  padding: 18px;
+}
+
+.panelTitle,
+.toolbar {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.compact {
+  margin-top: 26px;
+}
+
+form,
+label {
+  display: grid;
+  gap: 10px;
+}
+
+form {
+  margin-top: 18px;
+}
+
+label {
+  color: #4e5a57;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+select,
+input {
+  background: white;
+  border: 1px solid #c9d1ce;
+  border-radius: 7px;
+  color: #1d2525;
+  min-height: 38px;
+  padding: 7px 9px;
+}
+
+.batchList {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.batch {
+  border-top: 1px solid #e4e7e4;
+  display: grid;
+  gap: 4px;
+  padding-top: 10px;
+}
+
+.batch span,
+.batch small,
+.toolbar p {
+  color: #66716f;
+}
+
+.toolbar {
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  min-width: 980px;
+  width: 100%;
+}
+
+th,
+td {
+  border-bottom: 1px solid #e4e7e4;
+  font-size: 13px;
+  padding: 11px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  color: #66716f;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.flags {
+  max-width: 240px;
+}
+
+.flags span {
+  background: #eef2f0;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 0 4px 4px 0;
+  padding: 4px 6px;
+}
+
+.rowActions {
+  display: flex;
+  gap: 6px;
+}
+
+.rowActions button {
+  height: 32px;
+  min-height: 32px;
+  width: 32px;
+}
+
+.empty {
+  color: #66716f;
+  padding: 24px;
+  text-align: center;
+}
+
+footer {
+  align-items: center;
+  color: #66716f;
+  display: flex;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+@media (max-width: 900px) {
+  main {
+    padding: 18px;
+  }
+
+  .kpiGrid,
+  .workArea {
+    grid-template-columns: 1fr;
+  }
+
+  .toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .filters {
+    width: 100%;
+  }
+
+  .filters select {
+    width: 100%;
+  }
+}
