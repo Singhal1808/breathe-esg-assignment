@@ -17,6 +17,8 @@ services:
           property: connectionString
       - key: SECRET_KEY
         generateValue: true
+      - key: PYTHON_VERSION
+        value: "3.12.13"
       - key: DEBUG
         value: "False"
       - key: ALLOWED_HOSTS
